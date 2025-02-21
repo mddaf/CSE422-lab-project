@@ -74,7 +74,7 @@ A correlation matrix showed:
 ### Imbalanced Dataset
 Fraud cases make up a small fraction of the dataset, indicating a significant class imbalance.
 
-![Imbalanced Dataset](images/imbalanced_dataset.png)
+![Imbalanced Dataset](images/target_class_balance.png)
 
 ## Data Pre-Processing
 ### Feature Selection
@@ -107,7 +107,7 @@ Dropped irrelevant features like **step, nameOrig, nameDest**. Also, **oldbalanc
 ### Scatter Plot
 - A scatter plot of the dataset confirmed a **binary classification problem**.
 
-![Scatter plot of amount vs isFraud](images/amount vs isFraud.png)
+![Scatter plot of amount vs isFraud](images/amount_vs_isFraud.png)
 ![Scatter plot of newbalanceOrig vs isFraud](images/newbalanceOrig_vs_isFraud.png)
 ![Scatter plot of newbalanceDest vs isFraud](images/newbalanceDest_vs_isFraud.png)
 ![Scatter plot of isFlaggedFraud vs isFraud](images/isFlaggedFraud_vs_isFraud.png)
